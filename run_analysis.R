@@ -23,11 +23,12 @@
 #    X_test.txt
 #    Y_test.txt
 #    subject_test.txt
-# Merge DF
-# Keep Activity, Subject, Mean & Std columns
-# update Activity Names
-# Create table()
-# Create Mean() for each variable and each subject
+# Append the data sets
+# Rename columns
+# Join the data sets into 1 data set
+# Save the data set to "joined.txt"
+# Group data by Activity and Subject ID, compute MEAN()
+# Save the data set to "summarized.txt"
 # ==========================================================================
 
 # ================== libaray ==========================================
