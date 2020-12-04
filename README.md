@@ -50,7 +50,7 @@ Here are the data for the project:</br>
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 
-Details Steps in Processing the Data
+Code Book of Details Steps in Processing the Data
 ===================
 
 The data was processed using a scrip named run_analysis.R
@@ -88,7 +88,7 @@ Example summarized.txt data (showing first few rows and columns)
 "WALKING_UPSTAIRS" 1 0.255461689622641 -0.0239531492643396 -0.0973020020943396
 
 
-Processed File Variables/Columns
+Code Book of Processed File Variables/Columns
 ====================
  Processed file:  joined.txt</br>
  [1] "subjectid"                         
