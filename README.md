@@ -17,24 +17,24 @@ The processing steps included:
 Files and Directory Structure
 ========================================
 
-activity labels (space delimited)
+activity labels (space delimited)</br>
 f_activity  ".\\UCI HAR Dataset\\activity_labels.txt"
 
-column labels (space delimited)
+column labels (space delimited)</br>
 f_columns  ".\\UCI HAR Dataset\\features.txt"
 
-test data (space delimited)
-f_x_test  ".\\UCI HAR Dataset\\test\\X_test.txt"
-f_y_test  ".\\UCI HAR Dataset\\test\\y_test.txt"
+test data (space delimited)</br>
+f_x_test  ".\\UCI HAR Dataset\\test\\X_test.txt"</br>
+f_y_test  ".\\UCI HAR Dataset\\test\\y_test.txt"</br>
 f_subject_test  ".\\UCI HAR Dataset\\test\\subject_test.txt"
 
-train data (space delimited)
-f_x_train  ".\\UCI HAR Dataset\\train\\X_train.txt"
-f_y_train  ".\\UCI HAR Dataset\\train\\y_train.txt"
+train data (space delimited)</br>
+f_x_train  ".\\UCI HAR Dataset\\train\\X_train.txt"</br>
+f_y_train  ".\\UCI HAR Dataset\\train\\y_train.txt"</br>
 f_subject_train  ".\\UCI HAR Dataset\\train\\subject_train.txt"
 
-Processed output files
-Joined  ".\\joined.txt"
+Processed output files</br>
+Joined  ".\\joined.txt"</br>
 Summarized  ".\\summarized.txt"
 
 
@@ -43,10 +43,10 @@ Original and Files
 
 The original files are:
 
-A full description is available at the site where the data was obtained:
+A full description is available at the site where the data was obtained:</br>
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-Here are the data for the project:
+Here are the data for the project:</br>
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 
@@ -68,29 +68,29 @@ The processing steps included:
 
 Example joined.txt data (showing first few rows and columns)
 ====================
-"subjectid" "activity" "tbodyacc-mean-x" "tbodyacc-mean-y" "tbodyacc-mean-z"
-1 "STANDING" 0.28858451 -0.020294171 -0.13290514
-1 "SITTING" 0.22184689 0.034107675 -0.12361242
-1 "LAYING" 0.27672941 -0.017209548 -0.10563797
-1 "WALKING" 0.28151325 -0.040800898 -0.13467496
-1 "WALKING" 0.28972747 0.01534272 -0.11667518
+"subjectid" "activity" "tbodyacc-mean-x" "tbodyacc-mean-y" "tbodyacc-mean-z"</br>
+1 "STANDING" 0.28858451 -0.020294171 -0.13290514</br>
+1 "SITTING" 0.22184689 0.034107675 -0.12361242</br>
+1 "LAYING" 0.27672941 -0.017209548 -0.10563797</br>
+1 "WALKING" 0.28151325 -0.040800898 -0.13467496</br>
+1 "WALKING" 0.28972747 0.01534272 -0.11667518</br>
 1 "WALKING_UPSTAIRS" 0.18360372 -0.076558729 -0.0469561
 
 
 Example summarized.txt data (showing first few rows and columns)
 ====================
-"activity" "subjectid" "tbodyacc-mean-x" "tbodyacc-mean-y" "tbodyacc-mean-z"
-"LAYING" 1 0.22159824394 -0.0405139534294 -0.11320355358
-"SITTING" 1 0.261237565425532 -0.00130828765170213 -0.104544182255319
-"STANDING" 1 0.278917629056604 -0.0161375901037736 -0.110601817735849
-"WALKING" 1 0.277330758736842 -0.0173838185273684 -0.111148103547368
-"WALKING_DOWNSTAIRS" 1 0.289188320408163 -0.00991850461020408 -0.107566190908163
+"activity" "subjectid" "tbodyacc-mean-x" "tbodyacc-mean-y" "tbodyacc-mean-z"</br>
+"LAYING" 1 0.22159824394 -0.0405139534294 -0.11320355358</br>
+"SITTING" 1 0.261237565425532 -0.00130828765170213 -0.104544182255319</br>
+"STANDING" 1 0.278917629056604 -0.0161375901037736 -0.110601817735849</br>
+"WALKING" 1 0.277330758736842 -0.0173838185273684 -0.111148103547368</br>
+"WALKING_DOWNSTAIRS" 1 0.289188320408163 -0.00991850461020408 -0.107566190908163</br>
 "WALKING_UPSTAIRS" 1 0.255461689622641 -0.0239531492643396 -0.0973020020943396
 
 
 Processed File Variables/Columns
 ====================
- Processed file:  joined.txt
+ Processed file:  joined.txt</br>
  [1] "subjectid"                         
  [2] "activity"                          
  [3] "tbodyacc-mean-x"                   
@@ -180,8 +180,8 @@ Processed File Variables/Columns
 [87] "angley,gravitymean"                
 [88] "anglez,gravitymean" 
 
-Processed file:  summarized.txt
-Data is the Mean() of all these columns
+Processed file:  summarized.txt</br>
+Data is the Mean() of all these columns</br>
  [1] "activity"                          
  [2] "subjectid"                         
  [3] "tbodyacc-mean-x"                   
